@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGPractice.NewTest2"/>
+      <class name="testNGPractice.NewTest1"/>
+      <class name="testNGPractice.SerialAndParallerExecution"/>
+      <class name="testNGPractice.DataProviderDemo"/>
+      <class name="practice.screenshotGet"/>
+      <class name="practice.WrittingDatainExcel"/>
+      <class name="practice.javascriptexecutorpractice"/>
+      <class name="practice.ReadingDataFromExcel"/>
+      <class name="pageObjectclassTwoapproach.logintest"/>
+      <class name="testNGPractice.AnnotationsPracticeandDependencies"/>
+      <class name="practice.RahulShettyAutomationPage"/>
+      <class name="testNGPractice.assertionPractice"/>
+      <class name="practice.tripadviser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
